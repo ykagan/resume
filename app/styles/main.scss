@@ -1,0 +1,87 @@
+$icon-font-path: "/bower_components/sass-bootstrap/fonts/";
+
+@import 'sass-bootstrap/lib/bootstrap';
+
+.overview{
+    margin-left:20px;
+    margin-right:20px;
+}
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* Space out content a bit */
+body {
+    padding-bottom: 20px;
+    font-size:16px;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.hero-unit {
+    padding: 60px;
+    margin-bottom: 30px;
+    background-color: #eeeeee;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
+
+
+
+.row 
+{
+    padding-left:12%;
+    padding-right:12%;
+}
+.experiance div
+{
+    padding-left:0 !important;
+}
+
+.experiance p
+{
+    padding-left:30px !important;
+    padding-right:30px !important;
+}
+
+.job-date 
+{
+    text-align:bottom;
+    margin-top: 19px;
+}
+
+h1.lead {
+    background-color: rgb(173, 173, 173);; 
+    color:white;
+
+}
+.hero-unit h1 {
+    letter-spacing: -1px;
+}
+
+
+@media(min-width: $screen-xs) {
+       .hero-unit h1 {
+            font-size: 30px;
+       } 
+}
+@media(min-width: $screen-sm) {
+       .hero-unit h1 {
+            font-size: 38px;
+       } 
+}
+@media(min-width: $screen-md) {
+       .hero-unit h1 {
+            font-size: 54px;
+       } 
+}
