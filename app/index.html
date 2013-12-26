@@ -14,9 +14,6 @@
 
         <link rel="stylesheet" href="styles/main.css">
         <!-- endbuild -->
-        <!-- build:js scripts/vendor/modernizr.js -->
-        <script src="bower_components/modernizr/modernizr.js"></script>
-        <!-- endbuild -->
     </head>
     <body>
         <!--[if lt IE 10]>
@@ -45,7 +42,7 @@
                     <div class="text-muted">646-522-4817</div>
                 </address>
                 </div> -->
-                <img src="/images/profile.png" class="col-md-2 col-sm-3 col-xs-4 col-lg-2" />
+                <img src="images/profile.png" class="col-md-2 col-sm-3 col-xs-4 col-lg-2" />
                 
                 <h1 class="col-md-10 col-sm-9 col-xs-12 col-lg-10">Resume for <a href="mailto:yuriykagan@gmail.com"><strong>Yuriy Kagan</strong></a></h1>
                 <h3 class="text-muted col-md-10 col-sm-9 col-xs-12 col-lg-10">Software Engineer</h3>
@@ -60,8 +57,8 @@
 
             <h1 class="lead text-center">Overview</h1>
             <div class="row">
-               <p>I am a  web developer perimarily focused in the Microsoft Web Stack (C# and ASP.NET) and more recently in the rapidly evolving sphere of client-side web development (HTML5 and Javascript frameworks).</p>
-               <p> Currently I am developing a next generation educational eLearning platform using modern web technologies (Single Page Application, MVC, client-side rendering, etc).</p>
+               <p>I am a  web developer perimarily focused on Microsoft's server-side Web Stack (C# and ASP.NET) and modern client-side web development (HTML5 and Javascript MVC frameworks).</p>
+               <p> I am currently the lead developer on <a href="http://macmillanhighered.com/catalog/demo/launchpad/teachingwithlaunchpad#">Launchpad</a>, a next generation Learning Management platform for <a href="http://se.macmillan.com/">Macmillan Higher Education</a> using the latest modern web technologies - Single Page Application, server-side MVC, client-side rendering, HTML5, and responsive design.</p>
             </div>
             <h1 class="lead text-center">Experiance</h1> 
 
@@ -69,13 +66,13 @@
                             <div class="col-md-4 text-right pull-right job-date">
                                 <div>New York, NY</div>
                             </div>
-                            <div class="col-md-8 col-sm-12"><h2><strong>Senior Consultant</strong> at <a href="http://northps.com" >NorthPoint Solutions</a></h2>
+                            <div class="col-md-8 col-sm-12"><h3><strong>Senior Consultant</strong> at <a href="http://northps.com" >NorthPoint Solutions</a></h3>
                             </div>
                             
                         </div>
                         <div class="row experiance">
                             <span class="lead col-md-8 col-sm-9">
-                                <a href="http://macmillanhighered.com/catalog/demo/launchpad/teachingwithlaunchpad#">Launchpad</a> for <em>Macmillan Higher Education</em>
+                                <a href="http://www.macmillanhighered.com/catalog/microsite/launchpad">Launchpad</a> for <em><a href="http://se.macmillan.com/">Macmillan Higher Education</a></em>
                             </span>
                             <div class="col-md-4 col-sm-3 text-right pull-right">
                                 <div>May, 2012 - Present</div>
@@ -84,13 +81,15 @@
                        
                         <div class="row experiance">
                             <p>
-                                Led a team of 4 developers to create <em>Macmilland Higher Education's</em> flagship eLearning portal. This project required close collaboration with the client's internal design team and the buisness stakeholders using an Agile methodology.
+                                Led a team of 4-8 developers to create <em>Macmilland Higher Education's</em> flagship online learning platform. This project required close collaboration with the client's internal design team and the buisness stakeholders using  Agile methodology.
                             </p>
-                            <p><strong>Launchpad</strong> was built as a <b>Single Page Application</b> using <b>ASP.NET MVC, jQuery, and jQueryUI</b>. We used a host of open source libraries to manage client-side routing and history (<em>Crossroads</em>), templating (<em>Handlebars</em>), testing (<em>Jasmine + PhantomJS</em>), and over a dozen custom-built jQuery plugins that functioned as interactive UI elements.
+                            <p><strong>Launchpad</strong> was built as a <b>Single Page Application</b> using <b>ASP.NET MVC, jQuery, and jQueryUI</b>. We used a host of open source libraries to manage client-side routing and history (<em>Crossroads</em>), templating (<em>Handlebars</em>), unit testing (<em>Jasmine</em>), and over a dozen custom-built jQuery plugins for various UI elements.
 
-                            <p>On the server we used <b>Unity</b> for dependency injection, <b>Microsoft Test and Nsubstitue</b> for unit testing, and the full <b>ASP.NET MVC</b> stack. The backend provided a unique challenge of having to store most of our data in a proprietary 3rd party XML-based data store.</p>
+                            <p>On the server we used <b>Unity</b> for dependency injection, <b>Microsoft Test</b> for unit testing, and the full <b>ASP.NET MVC</b> stack. We used <a href="http://msdn.microsoft.com/en-us/library/hh351318(v=azure.10).aspx">AppFabric</a> extensively for distributed caching and <b>Nginx</b> as a reverse proxy in our infrastructure. The backend provided a unique challenge due to a buisness requirement of storing most of our data in a proprietary 3rd party No-SQL data store.</p>
 
-                            <p>The <strong>Launchpad</strong> project went live in August 2013 with an initial user count of roughly 10,000 users.</p>
+                            <p>The <strong>Launchpad</strong> project went live in August 2013 with an initial user count of roughly 20,000 students.</p>
+
+                            <p>Additionally I designed and built a Mobile-first web application as a prototype of the future direction for <b>LaunchPad</b> using <b>AngularJS</b>, SSAS, Bootstrap, and a <b>Node.js</b>-based build system with a ASP.NET Web.API backend.</p>
                         </div>
                          <div class="row experiance">
                             <span class="lead col-md-8 col-sm-8">
@@ -113,28 +112,67 @@
                                 <li>integration with the Krames Online patient education article database, including indexing and searching </li>
                             </ul>
                         </div>
+                        <div class="row text-left experiance">
+                            <div class="col-md-4 text-right pull-right job-date">
+                                <div>New York, NY</div>
+                            </div>
+                            <div class="col-md-8 col-sm-12"><h3><strong>Developer</strong> at <a href="http://www.cgsinc.com" >Computer Generated Solutions</a></h3>
+                            </div>
+                            
+                        </div>
+                        <div class="row experiance">
+                            <span class="lead col-md-8 col-sm-9">
+                              <a href="http://www.cgsinc.com/en/software/bluecherry/solutions/business-intelligence-software">Buisness Intelligence Solution</a> for <a href="http://www.cgsinc.com/en/software/bluecherry">BlueCherry</a>
+                            </span>
+                            <div class="col-md-4 col-sm-3 text-right pull-right">
+                                <div>April, 2010 - Dec, 2011</div>
+                            </div>
+                        </div>
+                        <div class="row experiance">
+                            <p>
+                                Designed and implemented a BI data analysis and reporting tool with a Silverlight frontend and a .NET SOAP web service backend. The primary function of this framework was to provide user-driven ad hoc reporting capabilities for CGS’s proprietary Data Warehouse, which itself was integrated to the BlueCherry ERP System.
+                            </p>
+                            <p>The BI tool included the following features:</p>
+                            <ul>
+                                <li>Generate dynamic Microsoft SQL Reporting Services (SSRS) templates based on user perefences</li>
+                                <li>Allow advanced reporting features such as charts, drilldowns, and pivot tables</li>
+                                <li>Users could publish reports directly to a Sharepoint instance and create corporate dashboards</li>
+                            </ul>
+                            <p>Also developed a SharePoint WebPart and .NET component to allow dynamic filtering of reports beyond what is available in the default Sharepoint Report Viewer</p>
+                        </div>
+                         <div class="row experiance">
+                            <span class="lead col-md-8 col-sm-9">
+                              <b>WebTrack Customer Support System</b>
+                            </span>
+                            <div class="col-md-4 col-sm-3 text-right pull-right">
+                                <div>June, 2008 - April,2010</div>
+                            </div>
+                        </div>
+                        <div class="row experiance">
+                            <p>
+                                Responsible for the re-development, deployment, and maintenance of the company’s central customer support tracking system (WebTrac). This was an ASP.NET 2.0 application with a few AJAX features and built on top of the first iteration of <b>Yahoo UI (YUI)</b>. Also suggested and created a data-driven support wizard to reduce the number of support requests managed by the Customer Support team.
+                        </div>
 
-                    
             <h1 class="lead text-center">Technology and Skills</h1>
             <div class="row text-left ">
                 <div class="col-md-3 col-sm-3 col-xs-5 text-right"><strong>Server-Side Frameworks:</strong></div> 
-                <div class="col-md-9">ASP.NET MVC 4, Web API, ASP.NET SOAP/REST Web Services, light Node.JS experiance (express + Jade), Ektron CMS, Sharepoint Server development (MOSS 2007)</div>
+                <div class="col-md-9">ASP.NET MVC 4, Web API, AppFabric, light Node.JS experiance (Express + Jade), Ektron CMS, Sharepoint Server development (MOSS 2007)</div>
             </div>
             <div class="row">
                 <div class="col-md-3 col-sm-3 col-xs-4 text-right"><strong>Client-Side Frameworks:</strong></div> 
-                <div class="col-md-9" >HTML5/CSS3, jQuery, some AngularJS and Backbone </div>
+                <div class="col-md-9" >HTML5/CSS3, jQuery, Jasmine unit testing, Selenium WebDriver, AngularJS and KnockoutJS, Bootstrap 3  </div>
             </div>
             <div class="row text-left">
                 <div class="col-md-3 col-sm-3 col-xs-4 text-right"><strong>Database:</strong></div> 
-                <div class="col-md-9" >Microsoft SQL Server stack including Linq-to-SQL and Entity Framework, experiance with SSRS and limited SSIS</div>
+                <div class="col-md-9" >Microsoft SQL Server stack including LINQ-to-SQL and Entity Framework, experiance with SSRS</div>
             </div>    
              <div class="row text-left">
                 <div class="col-md-3 col-sm-3 col-xs-4 text-right"><strong>Misc Tech:</strong></div> 
-                <div class="col-md-9" >IIS and Nginx management, Unit Testing using MS Test and NSubstitute, , WPF and Silverlight, WinForms (but who uses those anymore, right?) </div>
+                <div class="col-md-9" >IIS and Nginx configuration, Unit Testing using MS Test and NSubstitute, Silverlight/WPF, WinForms (but hopefully never again) </div>
             </div>         
             <div class="row text-left">
                 <div class="col-md-3 col-sm-3 col-xs-4 text-right"><strong>Tools:</strong></div> 
-                <div class="col-md-9" >Subversion, Git, Visual Studio (all editions), Altassian JIRA and TeamCity</div>
+                <div class="col-md-9" >Git, Subversion, Bash and Powershell CLIs, Visual Studio (all editions), Altassian JIRA bug tracker, JetBrains TeamCity CI Suite, Sublime Text, Photoshop</div>
             </div>
             <div class="row text-left">
                 <div class="col-md-3 col-sm-3 col-xs-4 text-right"><strong>Languages:</strong></div> 
@@ -146,7 +184,7 @@
                 <div class="col-md-4 text-right pull-right">
                     <div>Sept, 2004 - Dec, 2009</div>
                 </div>
-                <div class="col-md-8 col-sm-12"><strong>B.S. in Computer Science</strong> from <a href="http://www.columbia.edu" >Columbia University</a>
+                <div class="col-md-8 col-sm-12"><strong>Computer Science</strong> at <a href="http://www.columbia.edu" >Columbia University</a>
                 </div>
             </div>
             <div class="row text-left experiance">
@@ -160,9 +198,8 @@
                        
 
         <!-- build:js scripts/vendor.js -->
-        <!-- bower:js -->
         <script src="bower_components/jquery/jquery.js"></script>
-        <!-- endbower -->
+        
         <!-- endbuild -->
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
